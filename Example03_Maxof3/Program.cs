@@ -1,6 +1,9 @@
-﻿int a = 4;
-int b = 9;
-int c = 2;
+﻿int a = new Random().Next(1, 1000);
+int b = new Random().Next(1, 1000);
+int c = new Random().Next(1, 1000);
+Console.WriteLine("Число a = " + a);
+Console.WriteLine("Число b = " + b);
+Console.WriteLine("Число c = " + c);
 if (a > b && a > c) {
     Console.WriteLine("Число " + a + " наибольшее из трех");
 }
